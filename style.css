@@ -69,6 +69,7 @@ body{
 }
 .devinfo{
     font-size: 16px;
+    margin-left: 2%;
    display: flex;
    justify-content: center;
    flex-direction: column;
@@ -116,7 +117,7 @@ body{
     margin: 2px;
 }
 .pic img{
-    height: 50vh;    
+    height: 45vh;    
 }
 
 /* contact form  */
@@ -208,8 +209,13 @@ p{
     *{
         /* background-color: red; */
     }
+    .infoContainer{
+        display:inline ;
+    }
     .pic{
-        display: none;
+        /* display: none; */
+        width: 80vw;
+        margin-top: 2%;
     }
     .devinfo{
         font-size: 10px;
