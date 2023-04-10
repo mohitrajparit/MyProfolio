@@ -42,7 +42,7 @@ body{
 }
 .main{
     width: 85vw;
-    height: 100vh;
+    /* height: 100vh; */
     
 }
 .hamburger{
@@ -204,6 +204,17 @@ p{
 .intro ,.contactForm,.blogContainer{
     margin-top: 40px;
     margin-left: 15px;
+}
+
+/* footer  */
+
+#footer{
+    padding: 3.5% 7%;
+    text-align: center;
+    
+}
+.social-icons{
+    margin: 20px 10px;
 }
 @media (max-width:1300px){
     *{
