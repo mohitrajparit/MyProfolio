@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    /* background-color: black;
+    color: white; */
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(184, 180, 180);
+    width:35vw;
+    height: 100vh;
+    padding-top: 8%;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 6%;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 2.8vw;
+    padding: 20px 0 20px;
+
+}
+.sidebar nav li a{
+    color: black;
+    text-decoration: none;
+
+}
+.sidebarGo{
+    transform: translate(-463px ,0px);
+    position: absolute;
+}
+.main{
+    width: 85vw;
+    height: 100vh;
+    
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    /* margin-top: 10px;
+    margin-left: 10px; */
+}
+.cross{
+    margin-left: 27vw;
+    margin-top: 4px;
+}
+.infoContainer{
+    /* background-color: aqua; */
+    margin: 7%  2% 2% ;
+    height: 70vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+    font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-size: 185%;
+    font-weight: 150;
+    font-size: 3em;
+}
+.info{
+    font-size: 2.5em;
+    font-family: 'Fira Sans', sans-serif;
+}
+.moreabout{
+    font-size: 2.2em;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    font-size: 16px;
+    margin-top: 2%;
+}
+.btn{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1% 1%;
+    border-radius: 20px;
+    color: white;
+    background-color: dodgerblue;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+}
+.btn-sm{
+    width: fit-content;
+    padding: 8px;
+    margin: 2px;
+}
+.pic img{
+    height: 50vh;    
+}
+
+/* contact form  */
+.contactForm{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 5%;
+    padding-top: 18%;
+}
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactForm form input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+/* blog website */
+
+.blogContainer{
+    font-family: 'Source Code Pro', monospace;
+    margin: 5%;
+    padding: 1%;
+    font-size: large;
+}
+.blogItem{
+    font-family: 'Source Code Pro', monospace;
+    margin: 5%;
+    padding: 1%;
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+}
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 2%;
+}
+.intro p{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 2%;
+}
+.skillContainer{
+    padding: 1%;
+    margin: 1% 2% 1%;
+}
+.skillItem{
+    display:flex;
+    align-items: center;
+    margin: 1% 2% 1%;
+    padding: 1%;
+    font-weight: 800;
+}
+.skill{
+    width: 250px;
+    height: 7px;
+    background-color: red;
+}
+.intro ,.contactForm,.blogContainer{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+@media (max-width:1300px){
+    *{
+        /* background-color: red; */
+    }
+    .pic{
+        display: none;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+    .buttons{
+        font-size: 8px;
+    }
+    /* .sidebar{
+        transform: translate(-443px ,0px);
+        position: absolute;
+    } */
+    .contactForm form input{
+        width: 40vw;
+    }
+    #form-check input{
+        width: 20px;
+    }
+    #form-check{
+        padding: 2%;
+    }
+}
