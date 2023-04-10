@@ -216,18 +216,25 @@ p{
 .social-icons{
     margin: 20px 10px;
 }
-@media (max-width:1300px){
-    *{
-        /* background-color: red; */
-    }
+@media (max-width:1250px){
     .infoContainer{
         display:inline ;
     }
     .pic{
         /* display: none; */
         width: 80vw;
+    }
+}
+@media (max-width:1300px){
+    *{
+        /* background-color: red; */
+    }
+    .pic{
+        /* display: none; */
+        width: 80vw;
         margin-top: 2%;
     }
+    
     .devinfo{
         font-size: 10px;
     }
