@@ -84,6 +84,9 @@ body{
     font-weight: 150;
     font-size: 3em;
 }
+#name{
+
+}
 .info{
     font-size: 2.5em;
     font-family: 'Fira Sans', sans-serif;
@@ -196,11 +199,22 @@ p{
     padding: 1%;
     font-weight: 800;
 }
-.skill{
+.skill1{
     width: 250px;
     height: 7px;
     background-color: red;
 }
+.skill2{
+    width: 220px;
+    height: 7px;
+    background-color: red;
+}
+.skill3{
+    width: 200px;
+    height: 7px;
+    background-color: red;
+}
+
 .intro ,.contactForm,.blogContainer{
     margin-top: 40px;
     margin-left: 15px;
