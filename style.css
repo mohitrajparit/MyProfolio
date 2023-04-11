@@ -192,6 +192,9 @@ p{
     padding: 1%;
     margin: 1% 2% 1%;
 }
+table{
+    margin-left: 2%;
+}
 .skillItem{
     display:flex;
     align-items: center;
