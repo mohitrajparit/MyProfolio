@@ -9,13 +9,14 @@
 body{
     /* background-color: black;
     color: white; */
+    background-color: #e7eff5;
 }
 .container{
     display: flex;
 }
 .sidebar{
     position: absolute;
-    background-color: rgb(184, 180, 180);
+    background-color: #e4e7ce;
     width:35vw;
     height: 100vh;
     padding-top: 8%;
@@ -80,12 +81,13 @@ body{
     font-family: 'Fira Sans', sans-serif;
 }
 .name{
-    font-size: 185%;
+    font-size: 195%;
     font-weight: 150;
     font-size: 3em;
 }
-#name{
 
+.nameEffect{
+    
 }
 .info{
     font-size: 2.5em;
@@ -177,6 +179,9 @@ body{
 h2{
     font-family: 'Fira Sans', sans-serif;
 }
+h1{
+    font-family: 'Source Code Pro', monospace;
+}
 p{
     font-family: 'Source Code Pro', monospace;
 }
@@ -194,6 +199,9 @@ p{
 }
 table{
     margin-left: 2%;
+}
+#project{
+    margin-top: 5%;
 }
 .skillItem{
     display:flex;
